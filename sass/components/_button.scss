@@ -12,8 +12,8 @@
 }
 
 .button--primary {
-	color: $secondary-text-color-button;
-	background-color: $secondary-bgc-button;
+	color: $primary-text-color-button;
+	background-color: $primary-bgc-button;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
@@ -26,8 +26,8 @@
 
 	border-color: transparent;
 
-	color: $primary-text-color-button;
-	background-color: var(--prymary-bgc-button);
+	color: $secondary-text-color-button;
+	background-color: $secondary-bgc-button;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -37,12 +37,7 @@
 
 	&:hover,
 	&:focus {
-		color: $secondary-text-color-button;
-		background-color: $secondary-bgc-button;
+		color: $primary-text-color-button;
+		background-color: $primary-bgc-button;
 	}
-}
-.form__button {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
 }
